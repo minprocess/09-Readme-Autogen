@@ -79,7 +79,7 @@ ${badge}<br>
 ## Description<br>
 ${data.description}<br>
 ## Table of Contents<br>
-[Installation](#idinstall)<br>
+[Installation](#installation)<br>
 [Usage](#idusage)<br>
 [Contributing](#idcontributing)<br>
 [Tests](#idtests)<br>

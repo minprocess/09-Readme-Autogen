@@ -1,10 +1,10 @@
 
-# readme-autogen<br>
+# lksjdf<br>
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br>
 ## Description<br>
-short description<br>
+iosduf<br>
 ## Table of Contents<br>
-[Installation](#idinstall)<br>
+[Installation](#installation)<br>
 [Usage](#idusage)<br>
 [Contributing](#idcontributing)<br>
 [Tests](#idtests)<br>
@@ -12,25 +12,25 @@ short description<br>
 [License](#idlicense)<br>
 
 ## Installation<br>
-```npm i```<br>
+```sdf```<br>
 
 <a name="idusage"></a>
 ## Usage<br>
-a whole lot<br>
+ieor<br>
 <br>
 ![screenshot of the questions and answers](screenshot.png)<br>
 
 <a name="idcontributing"></a>
 ## Contributing
-send email
+lkjsdf
 
 <a name="idtests"></a>
 ## Tests
-```npm test```
+```jlksdf```
 
 <a name="idquestions"></a>
 ## Questions
-If you have any questions about the repo, open an issue or contact me directly at wtpate69@hotmail.com. You can find more of my work at GitHub username minprocess.
+If you have any questions about the repo, open an issue or contact me directly at wtpate. You can find more of my work at GitHub username minprocess.
 
 <a name="idlicense"></a>
 ## License
