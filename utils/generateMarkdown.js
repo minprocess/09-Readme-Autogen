@@ -24,14 +24,16 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   //["MIT", "APACHE 2.0", "GPL 3.0", "none"]
+  console.log("renderLicenseLink", license);
   if (license == licenseNameMIT) {
-    return 'https://license.txt';
+    return "<a href='./MIT-license.txt'</a>";
   }
   else if (license == licenseNameApache) {
-    return 'https://www.apache.org/licenses/LICENSE-2.0.txt';
+    return './Apache-license.txt';
   }
   else if (license == licenseNameGNU) {
-    return 'https://www.gnu.org/licenses/gpl-3.0.txt';
+    // <a id="idUsage"></a>
+    return './GNUv3-license.txt';
   }
   else {
     return '';
@@ -44,16 +46,16 @@ function renderLicenseSection(license) {
   //["MIT", "APACHE 2.0", "GPL 3.0", "none"]
   var text;
   if (license == licenseNameMIT) {
-    text = 'MIT license';
+    return "<a href='./MIT-license.txt'</a>";
   }
   else if (license == licenseNameApache) {
-    text = 'Apache 2.0 license';
+    return 'Apache 2.0 license';
   }
   else if (license == licenseNameGNU) {
-    text = 'Gnu License 3.0';
+    return 'Gnu License 3.0';
   }
   else {
-    text = 'No license given';
+    return 'No license given';
   }
 }
 
@@ -61,6 +63,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   let badge = renderLicenseBadge(data.license);
   let licenseText = renderLicenseSection(data.license);
+  console.log(licenseText);
   let installText = "```" + data.installDepends + "```";
   let testText = "```" + data.testsCommand + "```";
   return `
@@ -78,7 +81,7 @@ function generateMarkdown(data) {
 
   <a id="idInstall"></a>
   ## Installation<br>
-  ${data.installDepends}<br>
+  ${installText}<br>
  
   <a id="idUsage"></a>
   ## Usage<br>
@@ -99,6 +102,7 @@ function generateMarkdown(data) {
   If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at GitHub username ${data.username}.
 
   <a id="idLicense"></a>
+  ## License
   ${licenseText}
 `;
 }
