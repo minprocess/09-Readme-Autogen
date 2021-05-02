@@ -26,14 +26,16 @@ function renderLicenseLink(license) {
   //["MIT", "APACHE 2.0", "GPL 3.0", "none"]
   console.log("renderLicenseLink", license);
   if (license == licenseNameMIT) {
-    return "<a href='./MIT-license.txt'</a>";
+    return "./MIT-license.txt";
+    //return "<a href='./MIT-license.txt'</a>";
   }
   else if (license == licenseNameApache) {
-    return './Apache-license.txt';
+    //https://www.apache.org/licenses/LICENSE-2.0.txt
+    return 'https://www.apache.org/licenses/LICENSE-2.0.txt';
   }
   else if (license == licenseNameGNU) {
     // <a id="idUsage"></a>
-    return './GNUv3-license.txt';
+    return 'https://choosealicense.com/licenses/gpl-3.0/';
   }
   else {
     return '';
@@ -44,26 +46,31 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   //["MIT", "APACHE 2.0", "GPL 3.0", "none"]
-  var text;
+  var fn; // filename
   if (license == licenseNameMIT) {
-    return "<a href='./MIT-license.txt'</a>";
+    fn ='./utils/MIT-license.txt';
   }
   else if (license == licenseNameApache) {
-    return 'Apache 2.0 license';
+    fn = './utils/Apache-license.txt';
   }
   else if (license == licenseNameGNU) {
-    return 'Gnu License 3.0';
+    fn = './utils/GNUv3-license.txt';
   }
-  else {
-    return 'No license given';
+  var myContent;
+  if (fn.length > 0)
+  {
+    const fs = require('fs');
+    myContent = fs.readFileSync(fn, 'utf8');
   }
+  //console.log("renderlicenseSeciton myContent");
+  //console.log(myContent);
+  return myContent;
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   let badge = renderLicenseBadge(data.license);
   let licenseText = renderLicenseSection(data.license);
-  console.log(licenseText);
   let installText = "```" + data.installDepends + "```";
   let testText = "```" + data.testsCommand + "```";
   return `
