@@ -2,7 +2,7 @@
   # readme-autogen<br>
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br>
   ## Description<br>
-  answer questions<br>
+  short description<br>
   ## Table of Contents<br>
   [Installation](#idInstall)<br>
   [Usage](#idUsage)<br>
@@ -17,13 +17,13 @@
  
   <a id="idUsage"></a>
   ## Usage<br>
-  node index<br>
+  inquirer<br>
   <br>
   ![screenshot of the questions and answers](screenshot.png)<br>
 
   <a id="idContributing"></a>
   ## Contributing
-  send me email for guidelines
+  send email
 
   <a id="idTests"></a>
   ## Tests
@@ -35,4 +35,4 @@
 
   <a id="idLicense"></a>
   ## License
-  undefined
+  <a href='./MIT-license.txt'</a>
