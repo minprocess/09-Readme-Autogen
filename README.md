@@ -2,7 +2,7 @@
 # readme-autogen
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-Creates a readme from questions answered by a user
+Creates a readme file from questions answered by the user
 ## Table of Contents
 [Installation](#installation)<br>
 [Link to GitHub repository](#link-to-github-repository)<br>
@@ -12,19 +12,19 @@ Creates a readme from questions answered by a user
 [Questions](#questions)<br>
 [License](#license)
 ## Installation
-```npm i```
+```install i```
 ## Link to GitHub repository
 https://github.com/minprocess
 ## Usage
-Start the program with this command: node index<br>
+Start this program using this command > node index<br>
 Example using this program<br><br>
 ![screenshot of the questions and answers](screenshot.png)<br><br>
 ## Contributing
-Send an email to the address in the Questions section
+Send me an email with the address in the Questions sections
 ## Tests
 ```npm test```
 ## Questions
-If you have any questions about the repo, open an issue or contact me directly at wtpate@hotmail.com. You can find more of my work at GitHub username minprocess.
+If you have any questions about the repo, open an issue or contact me directly at wtpate69@hotmail.com. You can find more of my work at GitHub username minprocess.
 ## License
     readme-autogen, a CLI program to generate GitHub Readme
 
