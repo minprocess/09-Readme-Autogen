@@ -86,29 +86,29 @@ function generateMarkdown(data) {
   [Questions](#idQuestions)<br>
   [License](#idLicense)<br>
 
-  <a id="idInstall"></a>
+  <a name="idInstall"></a>
   ## Installation<br>
   ${installText}<br>
  
-  <a id="idUsage"></a>
+  <a name="idUsage"></a>
   ## Usage<br>
   ${data.using}<br>
   <br>
   ![screenshot of the questions and answers](${'screenshot.png'})<br>
 
-  <a id="idContributing"></a>
+  <a name="idContributing"></a>
   ## Contributing
   ${data.contributing}
 
-  <a id="idTests"></a>
+  <a name="idTests"></a>
   ## Tests
   ${testText}
 
-  <a id="idQuestions"></a>
+  <a name="idQuestions"></a>
   ## Questions
   If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at GitHub username ${data.username}.
 
-  <a id="idLicense"></a>
+  <a name="idLicense"></a>
   ## License
   ${licenseText}
 `;

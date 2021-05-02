@@ -11,29 +11,29 @@
   [Questions](#idQuestions)<br>
   [License](#idLicense)<br>
 
-  <a id="idInstall"></a>
+  <a name="idInstall"></a>
   ## Installation<br>
   ```npm i```<br>
  
-  <a id="idUsage"></a>
+  <a name="idUsage"></a>
   ## Usage<br>
   a whole lot<br>
   <br>
   ![screenshot of the questions and answers](screenshot.png)<br>
 
-  <a id="idContributing"></a>
+  <a name="idContributing"></a>
   ## Contributing
   send email
 
-  <a id="idTests"></a>
+  <a name="idTests"></a>
   ## Tests
   ```npm test```
 
-  <a id="idQuestions"></a>
+  <a name="idQuestions"></a>
   ## Questions
   If you have any questions about the repo, open an issue or contact me directly at wtpate69@hotmail.com. You can find more of my work at GitHub username minprocess.
 
-  <a id="idLicense"></a>
+  <a name="idLicense"></a>
   ## License
   MIT License
 
