@@ -74,43 +74,42 @@ function generateMarkdown(data) {
   let installText = "```" + data.installDepends + "```";
   let testText = "```" + data.testsCommand + "```";
   return `
-  # ${data.project}<br>
-  ${badge}<br>
-  ## Description<br>
-  ${data.description}<br>
-  ## Table of Contents<br>
-  [Installation](#idInstall)<br>
-  [Usage](#idUsage)<br>
-  [Contributing](#idContributing)<br>
-  [Tests](#idTests)<br>
-  [Questions](#idQuestions)<br>
-  [License](#idLicense)<br>
+# ${data.project}<br>
+${badge}<br>
+## Description<br>
+${data.description}<br>
+## Table of Contents<br>
+[Installation](#idinstall)<br>
+[Usage](#idusage)<br>
+[Contributing](#idcontributing)<br>
+[Tests](#idtests)<br>
+[Questions](#idquestions)<br>
+[License](#idlicense)<br>
 
-  <a name="idInstall"></a>
-  ## Installation<br>
-  ${installText}<br>
- 
-  <a name="idUsage"></a>
-  ## Usage<br>
-  ${data.using}<br>
-  <br>
-  ![screenshot of the questions and answers](${'screenshot.png'})<br>
+## Installation<br>
+${installText}<br>
 
-  <a name="idContributing"></a>
-  ## Contributing
-  ${data.contributing}
+<a name="idusage"></a>
+## Usage<br>
+${data.using}<br>
+<br>
+![screenshot of the questions and answers](${'screenshot.png'})<br>
 
-  <a name="idTests"></a>
-  ## Tests
-  ${testText}
+<a name="idcontributing"></a>
+## Contributing
+${data.contributing}
 
-  <a name="idQuestions"></a>
-  ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at GitHub username ${data.username}.
+<a name="idtests"></a>
+## Tests
+${testText}
 
-  <a name="idLicense"></a>
-  ## License
-  ${licenseText}
+<a name="idquestions"></a>
+## Questions
+If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at GitHub username ${data.username}.
+
+<a name="idlicense"></a>
+## License
+${licenseText}
 `;
 }
 
