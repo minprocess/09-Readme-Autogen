@@ -1,5 +1,7 @@
-    readme-autogen CLI program to generate GitHub Readme
-    Copyright (C) <2021>  <William Pate>
+    readme-autogen, a CLI program to generate GitHub Readme
+
+    GNU CPL 3 License
+    Copyright (C) 2021  <William Pate>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

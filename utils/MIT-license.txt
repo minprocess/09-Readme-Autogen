@@ -1,5 +1,6 @@
-MIT License
+    readme-autogen, a CLI program to generate GitHub Readme
 
+    MIT License
     Copyright (c) 2021 William Pate
     
     Permission is hereby granted, free of charge, to any person obtaining a copy
