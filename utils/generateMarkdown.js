@@ -74,42 +74,42 @@ function generateMarkdown(data) {
   let installText = "```" + data.installDepends + "```";
   let testText = "```" + data.testsCommand + "```";
   return `
-# ${data.project}<br>
-${badge}<br>
-## Description<br>
-${data.description}<br>
-## Table of Contents<br>
-[Installation](#installation)<br>
-[Usage](#idusage)<br>
-[Contributing](#idcontributing)<br>
-[Tests](#idtests)<br>
-[Questions](#idquestions)<br>
-[License](#idlicense)<br>
+# ${data.project}\r\n
+${badge}\r\n
+## Description\r\n
+${data.description}\r\n
+## Table of Contents\r\n
+[Installation](#installation)\r\n
+[Usage](#idusage)\r\n
+[Contributing](#idcontributing)\r\n
+[Tests](#idtests)\r\n
+[Questions](#idquestions)\r\n
+[License](#idlicense)\r\n
 
-## Installation<br>
-${installText}<br>
+## Installation\r\n
+${installText}\r\n
 
 <a name="idusage"></a>
-## Usage<br>
-${data.using}<br>
-<br>
-![screenshot of the questions and answers](${'screenshot.png'})<br>
+## Usage\r\n
+${data.using}\r\n
+\r\n
+![screenshot of the questions and answers](${'screenshot.png'})\r\n
 
 <a name="idcontributing"></a>
-## Contributing
-${data.contributing}
+## Contributing\r\n
+${data.contributing}\r\n
 
 <a name="idtests"></a>
-## Tests
-${testText}
+## Tests\r\n
+${testText}\r\n
 
 <a name="idquestions"></a>
-## Questions
-If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at GitHub username ${data.username}.
+## Questions\r\n
+If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at GitHub username ${data.username}.\r\n
 
 <a name="idlicense"></a>
-## License
-${licenseText}
+## License\r\n
+${licenseText}\r\n
 `;
 }
 
