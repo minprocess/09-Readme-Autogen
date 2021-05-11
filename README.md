@@ -1,6 +1,6 @@
 
 # readme-autogen
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
 Creates a readme file from questions answered by the user
 ## Table of Contents
@@ -14,11 +14,14 @@ Creates a readme file from questions answered by the user
 ## Installation
 ```install i```
 ## Link to GitHub repository
-https://github.com/minprocess
+https://github.com/minprocess/10-Team-Profile-Generator
 ## Usage
 Start this program using this command > node index<br>
 Example using this program<br><br>
-![screenshot of the questions and answers](screenshot.png)<br><br>
+![screenshot of the questions and answers](./assets/screenshot.png)<br>
+<br>
+[Link to a mp4 video of readme-autogen being used to create a README](.assets/Recording-of-using-readme-autogen.mp4)<br>
+
 ## Contributing
 Send me an email with the address in the Questions sections
 ## Tests
