@@ -20,7 +20,8 @@ Start this program using this command > node index<br>
 Example using this program<br><br>
 ![screenshot of the questions and answers](./assets/screenshot.png)<br>
 <br>
-[Link to a mp4 video of readme-autogen being used to create a README](.assets/Recording-of-using-readme-autogen.mp4)<br>
+Path to a recording of Readme-Autogen used to create this README
+(.assets/Recording-of-using-readme-autogen.mp4)<br>
 
 ## Contributing
 Send me an email with the address in the Questions sections
