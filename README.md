@@ -11,10 +11,12 @@ Creates a readme file from questions answered by the user
 [Tests](#tests)<br>
 [Questions](#questions)<br>
 [License](#license)
+
 ## Installation
 ```install i```
+
 ## Link to GitHub repository
-https://github.com/minprocess/10-Team-Profile-Generator
+https://github.com/minprocess/09-Readme-Autogen
 
 ## Link to GitHub pages
 https://minprocess.github.io/09-Readme-Autogen/
