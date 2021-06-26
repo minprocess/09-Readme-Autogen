@@ -15,6 +15,10 @@ Creates a readme file from questions answered by the user
 ```install i```
 ## Link to GitHub repository
 https://github.com/minprocess/10-Team-Profile-Generator
+
+## Link to GitHub pages
+https://minprocess.github.io/09-Readme-Autogen/
+
 ## Usage
 Start this program using this command > node index<br>
 Example using this program<br><br>
