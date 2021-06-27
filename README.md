@@ -18,9 +18,6 @@ Creates a readme file from questions answered by the user
 ## Link to GitHub repository
 https://github.com/minprocess/09-Readme-Autogen
 
-## Link to GitHub pages
-https://minprocess.github.io/09-Readme-Autogen/
-
 ## Usage
 Start this program using this command > node index<br>
 Example using this program<br><br>
